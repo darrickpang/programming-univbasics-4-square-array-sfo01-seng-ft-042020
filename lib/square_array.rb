@@ -3,10 +3,10 @@ def square_array(array)
   numbers =[]
   x=0 
   while x < array.length
-    num = array[x]
+
     numbers << array[x]**2
     x += 1 
   end
-  puts numbers
+  numbers
 end
 
