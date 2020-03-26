@@ -3,7 +3,8 @@ def square_array(array)
   numbers =[]
   x=0 
   while x < array.length
-    numbers.push(array[x]**2)
+    num = array[x]**2
+    numbers.push(num)
     x += 1 
   end
   puts numbers
